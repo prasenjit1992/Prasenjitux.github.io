@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prasenjit Portfolio</title>
+
+    <link rel="stylesheet" href="css\style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+
+</head>
+<body>
+    
+  <!-- Main Container starts -->  
+
+
+
+<div class="container maindiv">
+
+
+   <!-- Carousel Section starts --> 
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="img\workimage1sdad.jpg" alt="First slide">
+        <div class="carousel-caption" style="color: #ffffff !important;">
+          <h5>Prasenjit Dasgupta.</h5>
+          <h6>UI/UX Desiner</h6>
+          <h6>Adobe XD, Figma, Bootstrap, HTML/CSS, RWD.</h6>
+          <div class="row margin-x-0 col-lg-12 Carousal_tools_images">
+            <div class="col-lg-4 offset-lg-4 col-sm-8 offset-sm-2 col-8 offset-2">
+              <div class="col-3 pull-left"><img src="img\XD.png" class="tools-img"></div>
+              <div class="col-3 pull-left"><img src="img\Figma.gif" class="tools-img"></div>
+              <div class="col-3 pull-left"><img src="img\Photoshop.gif" class="tools-img"></div>
+              <div class="col-3 pull-left"><img src="img\Bootstrap.png" class="tools-img"></div>
+            </div>
+          </div>
+          <a type="button" target="_blank" class="btn btn-pink btn-lg downloadbtn" href="Prasenjit Resume.docx">
+            <i class="fa fa-download"></i>&nbsp;&nbsp;&nbsp;&nbsp; Download Resume
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+     <!-- Carousel Section ends --> 
+
+
+
+
+<!-- Main Body Section starts -->
+ 
+  <div class="row">
+    <div class="container-fluid">
+
+
+
+
+      <!-- 1st Profile Section starts -->
+      <div class="col-sm-12 border-primary padding-x-0 myborder" id="user">
+                <div class="p-3 text-white bg-primary section-header">
+                    <h5>Profile Info -</h5>
+                </div>
+
+
+                <div class="p-3 text-primary margin-y-30">
+                    <h5>Profile Details -</h5>
+                </div>
+
+                
+
+                <div class="row margin-x-0 col-lg-12 p-1" style="margin-top: 5px !important; margin-bottom: 5px !important;">
+
+                  <div class="col-lg-12 col-md-12 col-sm-12 p-2 Section Section1">
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title text-primary p-4">Profile</h5>
+                        <p class="card-text p-4">
+                              <span style="display:block;">Role : UX Designer.</span>
+                              <span style="display:block;">Educational Qualification  : B.Tech. (EEE).</span>
+                              <span style="display:block;">Current Location : Kolkata.</span>
+                              <span style="display:block;">Preferred Location : Bangalore/Hyderabad/Kolkata.</span>
+                              <span style="display:block;">Nationality  : Indian.</span>
+                              <span style="display:block;">Linguistic ability : English, Hindi, Bengali.</span>
+                              <span style="display:block;">Address : Nabapally, Barasat, Kolkata-700126.</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+                <div id="proficiency_chart_desktop" class="col-lg-12 row margin-x-0 col-xs-12 p-4 Proficiency-graph" style="padding-top: 0px !important; padding-bottom: 0px !important; padding-left: 0px !important; padding-right: 0px !important;">
+                  <div class="col-sm-12 p-2" style="padding-top: 0px !important; padding-bottom: 0px !important; padding-left: 0px !important; padding-right: 0px !important;">
+                    <div class="" style="background-color: #fff !important;">
+                      <div class="card-body">
+                        <h4 class="card-title text-primary p-2">Proficiency-</h4>
+                        <canvas id="myChart" style="width:100%;"></canvas>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+                <!-- mobile chart starts --> 
+                <div id="proficiency_chart_mobile" class="col-lg-12 row margin-x-0 col-xs-12 p-4 Proficiency-graph" style="padding-top: 0px !important; padding-bottom: 0px !important; padding-left: 0px !important; padding-right: 0px !important;">
+                  <div class="col-sm-12 p-2" style="padding-top: 0px !important; padding-bottom: 0px !important; padding-left: 0px !important; padding-right: 0px !important;">
+                    <div class="card" style="background-color: #fff !important;">
+                      <div class="card-body">
+                        <h5 class="card-title text-primary p-2">Proficiency-</h5>
+                        <canvas id="myChart-mobile" style="width:100%;"></canvas>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- mobile chart ends --> 
+
+
+
+      </div>  
+    </br>
+
+
+
+
+
+
+
+
+                     
+
+    <!-- 1st Profile Section ends --> 
+
+
+
+
+            <div class="col-sm-12 border-info padding-x-0 myborder margin-top-60" id="experience">
+
+
+
+                <div class="p-3 text-info margin-y-30">
+                  <h5>Design Gallery -</h5>
+                </div>
+
+                <div class="row margin-x-0">
+                  <div class="flex-container" style="display: flex; flex-direction: row; margin-bottom: 20px;">
+
+                    <div class="col-lg-4 col-md-12" style="text-align: center; margin-bottom: 20px;">
+                        <div class="card custom-card project-div">
+                          <a href="Movie Ticketing App - Case study slide deck.pdf" target="_blank"><img src="img\Movieapp.jpg" alt="Website image" class="project_img border-bottom"></a>
+                          <a href="Movie Ticketing App - Case study slide deck.pdf" target="_blank">
+                            <div class="card-body info-colour hoverclass">
+                              <h5 class="card-title p-4">Movie Ticketing App</h5>
+                              <div>Desktop Version.</div>
+                              <div><b><h6>Click here to download the Case Study.</h6></b></div>
+                            </div>
+                          </a>
+                      </div>
+                    </div>
+                  
+                    <div class="col-lg-4 col-md-12" style="text-align: center; margin-bottom: 20px;">
+                        <div class="card custom-card project-div">
+                          <a href="Bloodonor website - Case study slide deck.pdf" target="_blank"><img src="img\Bloodonor.png" alt="Website image" class="project_img border-bottom"></a>
+                          <a href="Bloodonor website - Case study slide deck.pdf" target="_blank">
+                            <div class="card-body info-colour hoverclass">
+                              <h5 class="card-title p-4">Blood Donation Website</h5>
+                              <div>Desktop Version Low FIdelity Wireframe.</div>
+                              <div><b><h6>Click here to download the Case Study.</h6></b></div>
+                            </div>
+                        </a>
+                      </div> 
+                    </div>
+
+                    <div class="col-lg-4 pull-left" style="text-align: center; margin-bottom: 20px;">             
+                      <div class="card custom-card project-div">
+                        <a href="FIGMA CLASS FILE - BOBA TEA.pdf" target="_blank"><img src="img\BobaTea.png" alt="Website image" class="project_img border-bottom"></a>
+                        <a href="FIGMA CLASS FILE - BOBA TEA.pdf" target="_blank">
+                        <div class="card-body info-colour hoverclass">
+                          <h5 class="card-title p-4">Online Tea Ordering App</h5>
+                          <div>Mobile App Mockup.</div>
+                          <div><b><h6>Click here to download project file.</h6></b></div>
+                        </div>
+                      </a>
+                      </div>
+                    </div> 
+
+
+                  </div>
+              </div>
+
+
+
+            </div>
+
+
+
+
+
+
+            <div class="col-sm-12 border-purple padding-x-0 myborder margin-top-60" id="contact">
+                <div class="p-3 text-white bg-purple section-header">
+                    <h5>Connect Me !!</h5>
+                </div>
+
+                <div class="p-3 text-purple margin-y-30">
+                    <h5>Contact Details-</h5>
+                </div>
+
+
+                <div class="col-lg-12 p-4 Section Section13" style="margin-top: 5px !important; margin-bottom: 5px !important;">
+                    <div class="col-md-6 p-2 contact_div">
+                      <div class="card">
+                        <div class="card-body">
+                          <h5 class="card-title">Contact -</h5>
+                          <p class="card-text">
+                            <span style="display:block;">Mobile - 8017830431</span>
+                            <span style="display:block;">Email - prasenjitdasgupta1991@gmail.com</span>
+                          </p>
+                          <input type="button" class="btn btn-pink btn-lg btn-block downloadbtn" VALUE="Email Me" onClick="parent.location='mailto:prasenjitdasgupta1991@gmail.com?'"> 
+                          </input>
+                        </div>
+                      </div>
+                    </div>
+                   </div>
+
+            </div>
+
+  <!-- Main Body Section ends -->
+
+
+</div>
+</div>
+
+</div>
+
+ <!-- Main Container ends -->
+
+
+
+
+<!-- Chart 1 starts -->
+<script>
+  var xValues = ["Adobe XD", "Photoshop", "Figma", "Bootstrap", "Html", "CSS", "RWD Design", "Mockup", "Wireframe", "Prototype", "Interaction Design", "Usability Testing"];
+  var yValues = [85, 60, 75, 70, 85, 85, 75, 75, 75, 70, 60, 60, 50, 100];
+  var barColors = ["#5caaff", "#6ac4d2","#76c788","#cc5ccc","#5caaff", "#5caaff", "#76c788", "#76c788", "#76c788", "#cc5ccc", "#6ac4d2", "#6ac4d2"];
+  
+  new Chart("myChart", {
+    type: "bar",
+    data: {
+      labels: xValues,
+      datasets: [{
+        backgroundColor: barColors,
+        data: yValues
+      }]
+    },
+    options: {
+      legend: {display: false},
+      title: {
+        display: true,
+        text: "Proficiency Meter"
+      }
+    }
+  });
+</script>
+<!-- Chart 1 ends -->
+
+
+<!-- Chart 2 starts -->
+<script>
+  var xValues1 = ["Adobe XD", "Photoshop", "Figma", "Bootstrap", "Html", "CSS", "RWD Design", "Mockup", "Wireframe", "Prototype", "Interaction Design", "Usability Testing"];
+  var yValues1 = [85, 60, 75, 70, 85, 85, 75, 75, 75, 70, 60, 60, 50, 100];
+  var barColors1 = [
+  "#5caaff", "#6ac4d2","#76c788","#cc5ccc","#5caaff", "#5caaff", "#76c788", "#76c788", "#76c788", "#cc5ccc", "#6ac4d2", "#6ac4d2"
+  ];
+  
+  new Chart("myChart-mobile", {
+    type: "pie",
+    data: {
+      labels: xValues1,
+      datasets: [{
+        backgroundColor: barColors1,
+        data: yValues1
+      }]
+    },
+    options: {
+      title: {
+        display: true,
+        text: "Proficiency Meter"
+      }
+    }
+  });
+  </script>
+<!-- Chart 2 ends -->
+
+
+</body>
+</html>
